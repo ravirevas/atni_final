@@ -1,0 +1,28 @@
+create table msterminatingcamelinterrogation (
+CallReference string,
+CAMELDestinationNumber string,
+CAMELDestTONNPI string,
+Data1Number string,
+Data1SerKey string,
+Data1TONNPI string,
+DateForStartofCharge timestamp,
+DefaultCallHandling string,
+ExchangeIdentity string,
+GSMCallReference string,
+Id bigint,
+IncomingCic string,
+MSCIdentification string,
+MSCIdenTONNPI string,
+MscSpc14 string,
+MscSpc24 string,
+OriginateMSCNumber string,
+OriginateMSCTONNPI string,
+OutgoingCic string,
+RecordType bigint,
+SequenceNumber bigint,
+ServedIMSI string,
+ServedMSISDN string,
+ServedMSTONNPI string,
+TimeForAnswer timestamp
+)
+stored as parquet;

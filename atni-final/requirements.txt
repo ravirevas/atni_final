@@ -1,0 +1,5 @@
+### pyasn1 needs to be present on all data nodes
+pip install pyasn1
+
+### impyla is to query impala from python client
+pip install impyla

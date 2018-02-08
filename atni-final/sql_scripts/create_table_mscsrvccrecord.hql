@@ -1,0 +1,38 @@
+create external table commnet_new.mscsrvccrecord (
+	answertime timestamp,
+	basicservice string,
+	callduration bigint,
+	callreference string,
+	callednumber string,
+	causeforterm string,
+	diagnostics string,
+	exchangeidentity string,
+	filename string,
+	icsi2activeflag string,
+	ims_charging_identifier string,
+	isemergencycall string,
+	lastlongpartind string,
+	locationcellid string,
+	locationlac string,
+	locationplmn string,
+	locationsac string,
+	millisecduration bigint,
+	msclassmark string,
+	mscoutgoingtkgp string,
+	partialrecordtype string,
+	recordsequencenumber string,
+	recordtype bigint,
+	recordingentity string,
+	relatedicid string,
+	releasetime timestamp,
+	seizuretime timestamp,
+	sequencenumber string,
+	servedimei string,
+	servedimsi string,
+	servedmsisdn string,
+	systemtype string,
+	transactionidentification string
+)
+stored as parquet
+location '/tmp/atni/data/mscsrvccrecord';
+

@@ -1,0 +1,27 @@
+INVALIDATE METADATA commnet_new.outgatewayrecord;
+INVALIDATE METADATA commnet_new.commonequipmentrecord;
+INVALIDATE METADATA commnet_new.mocallrecord;
+INVALIDATE METADATA commnet_new.ussdrecord;
+INVALIDATE METADATA commnet_new.mtlcsrecord;
+INVALIDATE METADATA commnet_new.incgatewayrecord;
+INVALIDATE METADATA commnet_new.ssactionrecord;
+INVALIDATE METADATA commnet_new.mosmsrecord;
+INVALIDATE METADATA commnet_new.mtsmsrecord;
+INVALIDATE METADATA commnet_new.mtcallrecord;
+INVALIDATE METADATA commnet_new.mcfcallrecord;
+INVALIDATE METADATA commnet_new.gsicphrecord;
+INVALIDATE METADATA commnet_new.hlrintrecord;
+INVALIDATE METADATA commnet_new.molcsrecord;
+INVALIDATE METADATA commnet_new.mtrfrecord;
+INVALIDATE METADATA commnet_new.ncscphrecord;
+INVALIDATE METADATA commnet_new.nilcsrecord;
+INVALIDATE METADATA commnet_new.vigrecord;
+INVALIDATE METADATA commnet_new.mcfcphrecord;
+INVALIDATE METADATA commnet_new.tcicphrecord;
+INVALIDATE METADATA commnet_new.mscsrvccrecord;
+INVALIDATE METADATA commnet_new.roamrecord;
+INVALIDATE METADATA commnet_new.mocphrecord;
+INVALIDATE METADATA commnet_new.moecallrecord;
+INVALIDATE METADATA commnet_new.termcamelintrecord;
+INVALIDATE METADATA commnet_new.zteumts_stats;
+

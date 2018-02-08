@@ -1,0 +1,28 @@
+CREATE EXTERNAL TABLE `affirm_stats`(
+`iteration_id` string,
+  `file_id` string,
+`filename` string,
+`checksum` string,
+`total_count` string,
+`success_count` string,
+`fail_count` string,																																
+`pgw_total_count` string,
+`pgw_success_count` string,
+`pgw_failed_count` string,
+`pgw_lsd_count` string,
+`pdp_rec_ext_count` string,
+`sgw_total_count` string,
+`sgw_success_count` string,
+`sgw_failed_count` string,
+`file_created_timestamp` bigint)
+partitioned by (year int, month int, day int)
+ROW FORMAT SERDE 
+  'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat' 
+OUTPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
+LOCATION
+  'hdfs://quickstart.cloudera:8020/user/hive/warehouse/gtt.db/pgwrecord'
+TBLPROPERTIES (
+  'transient_lastDdlTime'='1516344049');
